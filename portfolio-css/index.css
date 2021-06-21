@@ -119,6 +119,21 @@ h1{
 }
 
 
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 13px;
+    
+}
+ul{
+    list-style: none;
+
+}
+.icon-bar{
+   position: fixed;
+   left: -2px;
+   bottom: -5px;
+}
 
 @media(max-width: 600px){
     h1{
