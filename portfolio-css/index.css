@@ -7,18 +7,26 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .center{
-    background-color: white
+    background-image: url("/unDraw-background.png");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 100px;
 }
 h1{
-    padding-top: 150px;
-    padding-bottom: 200px;
-    padding-left: 170px;
     font-size: 90px;
     font-weight: 500;
 }
 
+.name{
+    color: rgb(239, 180, 16);
+    font-size: 97px;
+
+    
+}
+
 .introduction{
-    font-size: 37px;
+    font-size: 27px;
 }
 .description{
     font-size: 30px;
