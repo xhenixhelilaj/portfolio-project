@@ -109,7 +109,15 @@ h1{
     padding-right: 140px;
     background-color: white;
 }
+.certifications{
+    display: flex;
+    justify-content: space-between;
+}
 
+.certifications img{
+    width: 300px;
+    height: 190px;
+}
 .projects{
     padding-top: 200px;
     padding-bottom: 215px;
