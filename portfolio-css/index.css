@@ -94,6 +94,11 @@ h1{
 
 }
 
+ .white{
+    border: none;
+    background-color: transparent;
+}
+
 .about{
     padding-top: 200px;
     padding-bottom: 215px;
@@ -103,21 +108,18 @@ h1{
 }
 
 .education{
-    padding-top: 200px;
-    padding-bottom: 215px;
+    padding-top: 50px;
     padding-left: 140px;
     padding-right: 140px;
     background-color: white;
 }
-.certifications{
+
+.wrapper{
     display: flex;
     justify-content: space-between;
+    overflow-x: auto;
 }
 
-.certifications img{
-    width: 300px;
-    height: 190px;
-}
 .projects{
     padding-top: 200px;
     padding-bottom: 215px;
@@ -135,7 +137,7 @@ h1{
 }
 
 
-img{
+li img{
     width: 30px;
     height: 30px;
     margin-bottom: 13px;
