@@ -9,11 +9,12 @@ body{
 .center{
     background-image: url("/unDraw-background.png");
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 32px;
     padding-bottom: 200px;
     padding-left: 100px;
 }
 h1{
+    padding-top: 40px;
     font-size: 90px;
     font-weight: 500;
 }
@@ -105,6 +106,11 @@ h1{
     padding-right: 140px;
     background-color: white;
 }
+
+.go-up-button{
+    color: green;
+}
+ 
 
 .education{
     padding-top: 50px;
