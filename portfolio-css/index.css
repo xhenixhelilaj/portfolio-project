@@ -141,12 +141,6 @@ h1.active{
     background-position-y: 30%;
 }
 
-.education{
-    padding-top: 50px;
-    padding-left: 140px;
-    padding-right: 140px;
-}
-
 .wrapper{
     display: flex;
     justify-content: space-between;
@@ -185,7 +179,6 @@ ul{
 .icon-front-end .fab{
     display: flex;
     justify-content: space-around;
-    margin-left: 300px;
     
 }
 
