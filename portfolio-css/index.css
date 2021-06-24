@@ -1,5 +1,5 @@
 :root {
-    --clr-yellow: rgb(255, 199, 39);
+    --clr-yellow: rgb(238, 185, 39);
     --cr-black: rgb(0, 0, 0);
   }
 *,
@@ -13,7 +13,7 @@
 body{
     transition: 0.5s;
     align-items: left;
-
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body.active{
@@ -35,7 +35,6 @@ a.active{
     background-repeat: no-repeat;
 }
 h1{
-    font-family: 'Noto Sans JP', sans-serif;
     padding-top: 40px;
     font-size: 90px;
     font-weight: 500;
@@ -129,7 +128,8 @@ h1.active{
     padding-bottom: 215px;
     padding-left: 500px;
     padding-right: 110px;
-    font-size: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
 
 }
 
@@ -148,10 +148,24 @@ h1.active{
 }
 
 .projects{
-    padding-top: 200px;
+    padding-top: 85px;
     padding-bottom: 215px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-family: sans-serif;
+    font-weight: 530;
+}
+
+.projects h3{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.projects a{
+    text-decoration: none;
+    color: var(--clr-yellow);
+    font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 .contact{
@@ -207,6 +221,11 @@ ul{
     opacity: 1;
 }
 
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
 @media(max-width: 600px){
     h1{
         text-align: center;
