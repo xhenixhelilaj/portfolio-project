@@ -125,7 +125,7 @@ h1.active{
 }
 
 .about{
-    padding-top: 200px;
+    padding-top: 105px;
     padding-bottom: 215px;
     padding-left: 500px;
     padding-right: 110px;
@@ -138,7 +138,7 @@ h1.active{
     background-image: url("/hello.png");
     background-size: 500px;
     background-position-x: 2%;
-    background-position-y: 40%;
+    background-position-y: 30%;
 }
 
 .education{
