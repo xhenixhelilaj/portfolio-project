@@ -1,5 +1,6 @@
 :root {
     --clr-yellow: rgb(255, 199, 39);
+    --cr-black: rgb(0, 0, 0);
   }
 *,
 *::before,
@@ -25,10 +26,14 @@ a.active{
     }
 
 .center{
-
     padding-top: 32px;
     padding-bottom: 200px;
     padding-left: 100px;
+    background-image: url(/programming.png);
+    background-position-x: 110%;
+    background-position-y: 40px ;
+    background-size:610px ;
+    background-repeat: no-repeat;
 }
 h1{
     padding-top: 40px;
@@ -52,48 +57,6 @@ h1.active{
     font-size: 30px;
     position: relative;
     top: -40px;
-}
-
-#toggle{
-    position: relative;
-    display:block;
-    width: 40px;
-    height: 20px;
-    border-radius: 160px;
-    background: rgb(117, 116, 116);
-    transition: 0.5s;
-    cursor: pointer;
-    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
-    inset 0 8px 8px rgba(0,0,0,0.1),
-    inset 0 -4px -4px rgba(0,0,0,0.1);
-}
-
-#toggle .indicator{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: linear-gradient(to bottom, #444, #222 );
-    border-radius: 50%;
-    transform:  scale(0.9);
-    box-shadow: 0 8px 40px rgba(0,0,0,0.2),
-    inset 0 4px 4px rgba(255,255,255,0.2);
-    transition: 0.5s;
-}
-#toggle.active{
-    background: rgb(230, 229, 229);
-    box-shadow: inset 0 2px 60px rgba(0,0,0,0.1),
-    inset 0 2px 8px rgba(0,0,0,0.1),
-    inset 0 -4px 4px rgba(0,0,0,0.05);
-}
-
-#toggle.active .indicator{
-    left: 19px;
-    background: linear-gradient(to bottom, #eaeaea, #f9f9f9 );
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1),
-    inset 0 4px 4px rgba(255,255,255,1),
-    inset 0 -4px 4px rgba(255,255,255,1);
 }
 
 .scrolldown{
@@ -164,14 +127,18 @@ h1.active{
 .about{
     padding-top: 200px;
     padding-bottom: 215px;
-    padding-left: 140px;
+    padding-left: 480px;
     padding-right: 140px;
+
 }
 
-.go-up-button{
-    color: green;
+.about-1{
+    background-repeat: no-repeat;
+    background-image: url("/hello.png");
+    background-size: 500px;
+    background-position-x: 2%;
+    background-position-y: 80%;
 }
- 
 
 .education{
     padding-top: 50px;
@@ -199,21 +166,26 @@ h1.active{
     padding-right: 140px;
 }
 
-
-li img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 13px;
-    
-}
 ul{
     list-style: none;
-
 }
 .icon-bar{
    position: fixed;
-   left: -2px;
-   bottom: -5px;
+   left: 2px ;
+   bottom:10px;
+   font-size: 30px;
+   color: black;
+}
+
+.icon-bar a{
+    color: var(--clr-black)
+}
+
+.icon-front-end .fab{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    
 }
 
 .to-top{
@@ -228,7 +200,7 @@ ul{
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: black;
+    color: transparent !important;
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
