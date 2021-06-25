@@ -173,6 +173,11 @@ h1.active{
     padding-bottom: 215px;
     padding-left: 140px;
     padding-right: 140px;
+    background-image: url("/mail-illustration.png");
+    background-position-x: 90%;
+    background-position-y: 5px ;
+    background-size:660px ;
+    background-repeat: no-repeat;
 }
 
 ul{
