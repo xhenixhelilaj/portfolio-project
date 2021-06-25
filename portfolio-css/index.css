@@ -172,6 +172,11 @@ h1{
     background-repeat: no-repeat;
 }
 
+.icons-links .fab{
+    display: none;
+    
+}
+
 ul{
     list-style: none;
 }
